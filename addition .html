@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>web </title>
+    </head>
+    <body>
+        <input type="number" id="num1"placeholder="enter the first number">
+        <input type="number"id="num2"placeholder="enter second number"><br>
+        <button onclick="addfun()">add</button>
+        <button onclick="subfun()">subtraction</button>
+        <button onclick="mulfun()">multiply</button>
+        <button onclick="divfun()">division</button><br>
+        <input type="text" id="result" placeholder="result">
+    </body>
+    <script>
+        function addfun(){
+            var a=document.getElementById("num1").value
+            var b=document.getElementById("num2").value
+            document.getElementById("result").value=parseInt(a)+ parseInt (b) ;
+        }
+        function subfun(){
+            var a=document.getElementById("num1").value
+            var b=document.getElementById("num2").value
+            document.getElementById("result").value=a-b;
+        }
+        function mulfun(){
+            var a=document.getElementById("num1").value
+            var b=document.getElementById("num2").value
+            document.getElementById("result").value=a*b
+        }
+        function divfun(){
+            var a=document.getElementById("num1").value
+            var b=document.getElementById("num2").value
+            document.getElementById("result").value=a/b;
+        }
+        
+
+    </script>
+
+    
+</html>
