@@ -1,9 +1,13 @@
-class A{
+class Data{
 	int rollno;
 	String name;
 	static String college="CUS";
+<<<<<<< HEAD
 	//constructor
 	A(int r,String n){
+=======
+	Data(int r,String n){
+>>>>>>> 2c0a068ba9863a02c92a329ce28be4f20546064b
 		rollno=r;
 		name=n;
 	}
@@ -13,8 +17,8 @@ class A{
 
 public static void main(String[] args) {
 		// TODO Auto-generated method stub
-A s1=new A(111,"rakshi");
-A s2=new A(222,"siva");
+Data s1=new Data(111,"rakshi");
+Data s2=new Data(222,"siva");
 s1.display();
 s2.display();
 	}
