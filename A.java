@@ -2,6 +2,7 @@ class A{
 	int rollno;
 	String name;
 	static String college="CUS";
+	//constructor
 	A(int r,String n){
 		rollno=r;
 		name=n;
